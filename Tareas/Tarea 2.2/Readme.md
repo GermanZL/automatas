@@ -5,13 +5,13 @@ El código cuenta con 4 expresiones regulares curiosidad, frase célebre, conver
 
 #### 1.- Expresión de curiosidad:  
 curiosidad_expresion_regular = re.compile(r"curiosidad|sabias\s*que", re.IGNORECASE)
-<img src="img/cap1"> 
+<img src="./img/cap1" width="300px"></img>
 #### 2.- Expresión de frase célebre:
 frase_celebre_expresion_regular = re.compile(r"frase(s)?\s*celebre(s)?", re.IGNORECASE)
-<img src="img/cap2">
+<img src="./img/cap2" width="300px"></img>
 #### 3.- Expresión de conversión: 
 conversion_celsius_a_fahrenheit_expresion_regular = re.compile(r"convierte\s*(\d+(?:\.\d+)?)\s*celcius\s*a\s*F", re.IGNORECASE)
-<img src="img/cap3">
+<img src="./img/cap3" width="300px"></img>
 #### 4.- Expresión de correo: 
 suscripcion_noticias_expresion_regular = re.compile(r"correo|suscribir|noticias", re.IGNORECASE)
-<img src="img/cap4">
+<img src="./img/cap4" width="300px"></img>
