@@ -1,17 +1,23 @@
-## Telegram Bot Botsillo
+# Telegram Bot Botsillo
 Procedemos a iniciar el bot con el comando /start y el bot te saludara
 
 El código cuenta con 4 expresiones regulares curiosidad, frase célebre, conversión de Celsius a Fahrenheit y suscripción de correo
 
-#### 1.- Expresión de curiosidad:  
+## 1.- Expresión de curiosidad:  
 curiosidad_expresion_regular = re.compile(r"curiosidad|sabias\s*que", re.IGNORECASE)
-<img src="./img/cap1" width="300px"></img>
-#### 2.- Expresión de frase célebre:
+
+![evidencia](https://github.com/GermanZL/automatas/blob/master/Tareas/Tarea%202.2/img/cap1.jpeg)
+## 2.- Expresión de frase célebre:
 frase_celebre_expresion_regular = re.compile(r"frase(s)?\s*celebre(s)?", re.IGNORECASE)
-<img src="./img/cap2" width="300px"></img>
-#### 3.- Expresión de conversión: 
+
+![evidencia](https://github.com/GermanZL/automatas/blob/master/Tareas/Tarea%202.2/img/cap2.jpeg)
+## 3.- Expresión de conversión: 
 conversion_celsius_a_fahrenheit_expresion_regular = re.compile(r"convierte\s*(\d+(?:\.\d+)?)\s*celcius\s*a\s*F", re.IGNORECASE)
-<img src="./img/cap3" width="300px"></img>
-#### 4.- Expresión de correo: 
+
+![evidencia](https://github.com/GermanZL/automatas/blob/master/Tareas/Tarea%202.2/img/cap3.jpeg)
+## 4.- Expresión de correo: 
 suscripcion_noticias_expresion_regular = re.compile(r"correo|suscribir|noticias", re.IGNORECASE)
-<img src="./img/cap4" width="300px"></img>
+
+![evidencia](https://github.com/GermanZL/automatas/blob/master/Tareas/Tarea%202.2/img/cap4.jpeg)
+
+Zeron Lopez German Eduardo - 21200642
